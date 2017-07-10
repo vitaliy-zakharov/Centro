@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=1200">
+	<!--[if lt IE 9]> 
+		<script src="design/js/html5shiv.js"></script>
+	<![endif]-->
+	
+	<!--Styles-->
+	<link rel="stylesheet" href="../design/css/reset.css">
+	<link rel="stylesheet" href="../design/css/flexslider.css">
+	<link rel="stylesheet" href="../design/css/main.css">
+	
+
+	<meta charset="UTF-8">
+	<title>Centro</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<section class="top-info">
+				<section class="site-container">
+					<ul class="languages">
+						<li><a href="../buy.html">RU</a></li>
+						<li class="current"><a href="buy.html">EN</a></li>
+						<li><a href="#">UA</a></li>
+						<li><a href="#">LAT</a></li>
+						<li><a href="#">LIT</a></li>
+						<li><a href="#">PL</a></li>
+					</ul>
+				</section>
+			</section>
+			<section class="videos">
+				<section class="video-1">
+                    <img src="../images/video-thumbnails/header_video.jpg" alt="" class="holder">
+                    <video autoplay="autoplay" poster="../images/video-thumbnails/header_video.jpg" style="width:100%" loop onended="var v=this;setTimeout(function(){v.play()},3)">
+                        <!--header video source here begin-->
+                        <source src="../videos/header_video_x264.mp4" type="video/mp4" />
+                        <source src="../videos/header_video_VP8.webm" type="video/webm" />
+                        <!--header video source here end-->
+                    </video>
+				</section>
+				<section class="video-2">
+					<img src="../images/video-thumbnails/header_video.jpg" alt="" class="holder">
+					<video autoplay="autoplay" poster="../images/video-thumbnails/header_video.jpg" style="width:100%" loop onended="var v=this;setTimeout(function(){v.play()},3)">
+                        <!--header video source here begin-->
+                        <source src="../videos/header_video_x264.mp4" type="video/mp4" />
+                        <source src="../videos/header_video_VP8.webm" type="video/webm" />
+                        <!--header video source here end-->
+                    </video>
+				</section>
+				<section class="video-3">
+                    <img src="../images/video-thumbnails/header_video.jpg" alt="" class="holder">
+                    <video autoplay="autoplay" poster="../images/video-thumbnails/header_video.jpg" style="width:100%" loop onended="var v=this;setTimeout(function(){v.play()},3)">
+                        <!--header video source here begin-->
+                        <source src="../videos/header_video_x264.mp4" type="video/mp4" />
+                        <source src="../videos/header_video_VP8.webm" type="video/webm" />
+                        <!--header video source here end-->
+                    </video>
+				</section>
+				<div class="battlement"></div>
+			</section>
+			<section class="logo">
+				<a href="index.html"><img src="../images/logo.png" alt="Vicini for Centro"></a>
+			</section>
+			<nav class="menu">
+				<ul>
+					<li><a href="collection.html">коллекция</a></li>
+					<li><a href="photo.html">фото</a></li>
+					<li><a href="video.html">видео</a></li>
+					<li><a href="buy.html">где купить</a></li>
+					<li><a target="_blank" href="http://www.centrofashion.com">Centro</a></li>   
+				</ul>
+			</nav>
+		</header>
+		<main class="content">
+		    <section class="maps">
+		        <h1>Магазины обуви Centro </h1>
+		        <section class="cities">
+		            <div class="title">выбор города</div>
+		            <ul>
+		                <li><a href="#">Москва</a>
+		                    <ul class="shops">
+                                <li>
+                                    <div class="name">Centro</div>
+                                    <address data-latitude="55.775028" data-longitude="37.621093" data-icon="../design/img/marker.png">Москва, ул.Воскресенская, д.105</address>
+                                    <div class="worktime">
+                                        Время работы:<br>
+                                        10.00 – 20.00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="name">Centro</div>
+                                    <address data-latitude="55.674487" data-longitude="37.991881" data-icon="../design/img/marker.png">Москва, ул.Воскресенская, д.105</address>
+                                    <div class="worktime">
+                                        Время работы:<br>
+                                        10.00 – 20.00
+                                    </div>
+                                </li>
+                            </ul>
+		                </li>
+		                <li><a href="#">Архангельск</a>
+		                    <ul class="shops">
+                                <li>
+                                    <div class="name">Centro</div>
+                                    <address data-latitude="64.557291" data-longitude="40.569656" data-icon="../design/img/marker.png">Архангельск, ул.Воскресенская, д.105</address>
+                                    <div class="worktime">
+                                        Время работы:<br>
+                                        10.00 – 20.00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="name">Centro</div>
+                                    <address data-latitude="64.556111" data-longitude="40.529324" data-icon="../design/img/marker.png">Архангельск, ул.Воскресенская, д.105</address>
+                                    <div class="worktime">
+                                        Время работы:<br>
+                                        10.00 – 20.00
+                                    </div>
+                                </li>
+                            </ul>
+		                </li>
+		            </ul>
+		        </section>
+		        <div class="map-wrap">
+		            <section id="map-canvas">
+		                
+		            </section>
+		            <ul class="active-shops">
+		                <li></li>
+		            </ul>
+		        </div>
+		    </section>
+		</main>
+		<div class="line-battlement"></div>
+	</div><!-- .wrapper -->
+	<footer class="footer"></footer>
+	
+	<!--Pop Up-->
+	<div class="custom-overlay"></div>
+	<article class="custom-popup">
+		<div class="inner">
+		    
+		</div>
+		<div class="close">X</div>
+	</article>
+	<!--Scripts-->
+	<script src="../design/js/html5shiv.js"></script>
+	<script src="../design/js/jquery-1.10.2.min.js"></script>
+	<script src="../design/js/jquery.flexslider-min.js"></script>
+	<script src="../design/js/jquery.roundabout.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="../design/js/modernizr.js"></script>
+	<script src="../design/js/main.js"></script>
+</body>
+</html>
